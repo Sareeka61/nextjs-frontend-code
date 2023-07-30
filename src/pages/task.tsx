@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const fetchTask = async () => {
     const res = await axios.get(
-        'https://localhost:3000/task'
+        'http://localhost:3000/task'
     );
     return res
 };
